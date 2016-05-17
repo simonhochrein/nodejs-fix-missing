@@ -1,6 +1,6 @@
 {
   "name": "fix-missing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fix Missing Dependencies In Your App",
   "main": "index.js",
   "scripts": {
