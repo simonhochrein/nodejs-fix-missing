@@ -19,7 +19,7 @@ module.exports = function(){
 				var exec = require('child_process').exec,
 				    child;
 				  console.log("Installing Missing Module '"+val+"'")
-				 child = exec('npm install '+val,
+				 child = exec('npm install '+val+' -S',
 				 function (error, stdout, stderr) {
 				     console.log(stdout);
 				     console.log("\033[91m"+stderr+"\033[0m");
